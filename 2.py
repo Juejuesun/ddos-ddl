@@ -8,8 +8,8 @@ res = []  # 暂存十秒内的流表项
 temp = []  #
 flows_num = 0
 
-data = open('/home/silentsamsara/桌面/SDNWORK/attack.csv', newline='')  # 数据集
-result = open('/home/silentsamsara/桌面/SDNWORK/attack_data.csv', 'w', newline='')  # 特征向量保存文件
+data = open('./attack.csv', newline='')  # 数据集
+result = open('./attack_data.csv', 'w', newline='')  # 特征向量保存文件
 
 # data = open('C:/SDN/attack.csv')#数据集
 # result = open('attack_data.csv', 'w', newline='')#特征向量保存文件
